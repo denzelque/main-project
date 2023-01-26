@@ -30,6 +30,12 @@
       justify-content: center;
       padding-top: 40px;
     }
+
+    @include ux-min {}
+
+    @include ux {
+      display: none;
+    }
   }
 
   &__box {

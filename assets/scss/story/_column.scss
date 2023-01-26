@@ -21,6 +21,13 @@
     }
   }
 
+  &__column-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 110px;
+  }
+
   &__column {
     @include ul-min {}
 
@@ -62,6 +69,7 @@
       flex-wrap: wrap;
       flex-direction: column;
       align-items: center;
+      min-width: auto;
     }
 
     &-min {
@@ -86,6 +94,10 @@
     line-height: 21px;
     color: $color-active;
     padding: 20px 20px 5px 20px;
+  }
+
+  &__image {
+    width: 100%;
   }
 
   &__date {
@@ -155,14 +167,48 @@
     @include ul-min {}
 
     @include ul {
-      position: sticky;
+      display: none;
+
+
+    }
+  }
+
+  &__buttons {
+    display: none;
+
+    @include ul-min {}
+
+    @include ul {
       display: flex;
+      color: $color-white;
+      background: #24A3FF;
+      justify-content: center;
+      width: 250px;
+      height: 50px;
+      align-items: center;
+      box-shadow: 0px 0px 20px rgba(36, 163, 255, 0.5);
+      border-radius: 12px;
+    }
+  }
+
+
+
+  @include ux {
+
+    height: auto;
+    width: auto;
+  }
+
+  &__button-main {
+    display: none;
+
+    @include ul-min {}
+
+    @include ul {
+      color: $color-white;
       max-width: 250px;
-      top: none;
-      right: none;
-      bottom: none;
-      left: none;
-      transform: 0;
+      background: #24A3FF;
+
 
     }
   }

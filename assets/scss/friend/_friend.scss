@@ -8,7 +8,14 @@
   }
 
 
+  &__image {
 
+    @include lg-min {}
+
+    @include lg {
+      width: 90%;
+    }
+  }
 
   &__block {
     display: grid;
@@ -51,6 +58,20 @@
     grid-area: hl;
     min-height: 120px;
 
+    @include lg-min {}
+
+    @include lg {
+      min-height: 300px;
+
+    }
+
+    @include xx-min {}
+
+    @include xx {
+      min-height: 120px;
+
+    }
+
   }
 
 
@@ -61,6 +82,19 @@
     grid-area: wn;
     min-height: 120px;
 
+    @include lg-min {}
+
+    @include lg {
+      min-height: 300px;
+
+    }
+
+    @include xx-min {}
+
+    @include xx {
+      min-height: 120px;
+
+    }
   }
 
   &__tap {
@@ -70,6 +104,18 @@
     grid-area: tp;
     min-height: 120px;
 
+    @include lg-min {}
+
+    @include lg {
+      min-height: 300px;
+    }
+
+    @include xx-min {}
+
+    @include xx {
+      min-height: 120px;
+
+    }
   }
 
   &__look {
@@ -79,6 +125,18 @@
     grid-area: lk;
     min-height: 120px;
 
+    @include lg-min {}
+
+    @include lg {
+      min-height: 300px;
+    }
+
+    @include xx-min {}
+
+    @include xx {
+      min-height: 120px;
+
+    }
   }
 
   &__orangear {
@@ -88,6 +146,19 @@
     grid-area: or;
     min-height: 120px;
 
+    @include lg-min {}
+
+    @include lg {
+      min-height: 300px;
+
+    }
+
+    @include xx-min {}
+
+    @include xx {
+      min-height: 120px;
+
+    }
   }
 
 
@@ -98,6 +169,20 @@
     background-color: #e2e2e4;
     grid-area: ad;
     min-height: 120px;
+
+    @include lg-min {}
+
+    @include lg {
+      min-height: 300px;
+
+    }
+
+    @include xx-min {}
+
+    @include xx {
+      min-height: 120px;
+
+    }
   }
 
   &__click {
@@ -106,6 +191,19 @@
     background-color: #c71c36;
     grid-area: cl;
     min-height: 120px;
+
+    @include lg-min {}
+
+    @include lg {
+      min-height: 300px;
+    }
+
+    @include xx-min {}
+
+    @include xx {
+      min-height: 120px;
+
+    }
   }
 
   &__eco {
@@ -114,6 +212,20 @@
     background-color: #dcf3f9;
     grid-area: rc;
     min-height: 120px;
+
+    @include lg-min {}
+
+    @include lg {
+      min-height: 300px;
+
+    }
+
+    @include xx-min {}
+
+    @include xx {
+      min-height: 120px;
+
+    }
   }
 
   &__infra {
@@ -122,6 +234,20 @@
     background-color: #eaeaea;
     grid-area: in;
     min-height: 120px;
+
+    @include lg-min {}
+
+    @include lg {
+      min-height: 300px;
+
+    }
+
+    @include xx-min {}
+
+    @include xx {
+      min-height: 120px;
+
+    }
   }
 
   &__park {
@@ -130,6 +256,19 @@
     background-color: #282240;
     grid-area: pa;
     min-height: 120px;
+
+    @include lg-min {}
+
+    @include lg {
+      min-height: 300px;
+    }
+
+    @include xx-min {}
+
+    @include xx {
+      min-height: 120px;
+
+    }
   }
 
   &__print {
@@ -138,6 +277,20 @@
     background-color: #1d4568;
     grid-area: pr;
     min-height: 120px;
+
+    @include lg-min {}
+
+    @include lg {
+      min-height: 300px;
+
+    }
+
+    @include xx-min {}
+
+    @include xx {
+      min-height: 120px;
+
+    }
   }
 
   &__card {
@@ -146,5 +299,19 @@
     background-color: #000000;
     grid-area: ca;
     min-height: 120px;
+
+    @include lg-min {}
+
+    @include lg {
+      min-height: 300px;
+    }
+
+
+    @include xx-min {}
+
+    @include xx {
+      min-height: 120px;
+
+    }
   }
 }
