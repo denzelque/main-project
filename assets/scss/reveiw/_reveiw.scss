@@ -30,11 +30,11 @@
     background: $color-gray-bg;
     border-radius: 12px;
     display: grid;
-    grid-template-areas: "img  lnk" "img dsc" "img nm" "img lm";
+    grid-template-areas: "img  lnk" "img dsc" "img nm" "img .";
 
     @include lg-min {
 
-      grid-template-areas: "img  lnk" "img dsc" "img nm" "img lm";
+      grid-template-areas: "img  lnk" "img dsc" "img nm" "img .";
       grid-template-rows: auto auto 1fr;
 
     }
