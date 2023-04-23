@@ -30,11 +30,11 @@
     background: $color-gray-bg;
     border-radius: 12px;
     display: grid;
-    grid-template-areas: "img  lnk" "img dsc" "img nm" "img .";
+    grid-template-areas: "img  lnk" "img dsc" "img nm" "img lm";
 
     @include lg-min {
 
-      grid-template-areas: "img  lnk" "img dsc" "img nm" "img .";
+      grid-template-areas: "img  lnk" "img dsc" "img nm" "img lm";
       grid-template-rows: auto auto 1fr;
 
     }
@@ -45,9 +45,6 @@
       grid-template-columns: auto 1fr;
     }
   }
-
-
-
 
   &__link {
     font-weight: 700;
@@ -72,21 +69,18 @@
   &__image {
     grid-area: img;
     margin-right: 40px;
-
     @include lg-min {}
-
     @include lg {
+    }
+  }
+
+  &__icon {grid-area: lm;
+    display: none;
+
+    @include lg-min {
       display: none;
 
     }
-
-  }
-
-  &__icon {
-    grid-area: lm;
-    display: none;
-
-    @include lg-min {}
 
     @include lg {
       display: inline;

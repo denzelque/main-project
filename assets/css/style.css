@@ -1014,30 +1014,14 @@ a{
   .successful__hillel{
     flex-wrap:nowrap;
   }
-  .successful__title{
-    min-width:none;
-  }
-  .successful__school{
-    min-width:none;
-  }
-  .successful__wanna{
-    min-width:none;
-  }
-  .successful__tap{
-    min-width:none;
-  }
+
   .successful_second{
     flex-wrap:nowrap;
   }
   .successful__look{
     max-width:320px;
   }
-  .successful__elligent{
-    min-width:none;
-  }
-  .successful__cikky{
-    min-width:none;
-  }
+
   .friend__block{
     grid-template-areas:"hl wn tp lk" "or ad cl rc" "in pa pr ca";
   }
@@ -1081,10 +1065,6 @@ a{
   }
   .story__bg{
     display:none;
-    top:none;
-    right:none;
-    bottom:none;
-    left:none;
   }
   .story__button{
     display:none;
@@ -1180,34 +1160,26 @@ a{
     flex-wrap:wrap;
   }
   .successful__title{
-    min-width:none;
     padding:20px 20px 20px 20px;
   }
   .successful__school{
-    min-width:none;
     padding:20px 20px 0px 20px;
   }
   .successful__wanna{
-    min-width:none;
     padding:20px 20px 0px 20px;
   }
   .successful__tap{
-    min-width:none;
     padding:20px 20px 0px 20px;
   }
   .successful_second{
     flex-wrap:wrap;
     flex-direction:column;
   }
-  .successful__look{
-    max-width:none;
-  }
+
   .successful__elligent{
-    min-width:none;
     padding:20px 20px 0px 20px;
   }
   .successful__cikky{
-    min-width:none;
     padding:20px 20px 0px 20px;
   }
   .friend__image{
