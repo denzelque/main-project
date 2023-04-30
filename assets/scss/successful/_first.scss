@@ -2,7 +2,7 @@
 @use "../mixins" as *;
 
 .successful {
-  margin-top: 14px;
+  margin-top: 34px;
 
   &__first {
     display: flex;
@@ -47,12 +47,12 @@
     padding: 20px 0px 20px 20px;
 
     @include lg-min {
-      min-width: none;
+
 
     }
 
     @include lg {
-      min-width: none;
+
       padding: 20px 20px 20px 20px;
     }
   }
@@ -65,12 +65,12 @@
     padding: 48px 20px 0px 20px;
 
     @include lg-min {
-      min-width: none;
+
 
     }
 
     @include lg {
-      min-width: none;
+
       padding: 20px 20px 0px 20px;
     }
   }
@@ -83,12 +83,12 @@
     padding: 105px 20px 0px 20px;
 
     @include lg-min {
-      min-width: none;
+
 
     }
 
     @include lg {
-      min-width: none;
+
       padding: 20px 20px 0px 20px;
     }
   }
@@ -101,12 +101,8 @@
     padding: 105px 20px 0px 20px;
 
     @include lg-min {
-      min-width: none;
-
     }
-
     @include lg {
-      min-width: none;
       padding: 20px 20px 0px 20px;
     }
   }
@@ -115,6 +111,13 @@
     font-size: 18px;
     line-height: 26px;
     color: $color-gray-text;
-    padding: 20px
+    padding-top: 20px;
+    padding-bottom: 20px;
+    @include lg-min {
+    }
+    @include lg {
+      padding-top: 10px;
+      padding-bottom: 10px;
   }
+ }
 }
