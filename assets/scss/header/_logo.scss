@@ -4,7 +4,7 @@
 .logo {
   &__image {
     @include sm {
-      width: 120px; // todo: проверить размер по макету?!
+      width: 120px;
     }
   }
 }
